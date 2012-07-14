@@ -22,6 +22,7 @@
 		B538DE9715AE97F8004C4CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B538DE9515AE97F8004C4CDA /* InfoPlist.strings */; };
 		B538DE9A15AE97F9004C4CDA /* TabooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B538DE9915AE97F9004C4CDA /* TabooTests.m */; };
 		B538DEA515AEA045004C4CDA /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B538DEA415AEA045004C4CDA /* TeamViewController.m */; };
+		B538DEA815AEAB01004C4CDA /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B538DEA715AEAB01004C4CDA /* TransitionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B538DE9915AE97F9004C4CDA /* TabooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabooTests.m; sourceTree = "<group>"; };
 		B538DEA315AEA045004C4CDA /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
 		B538DEA415AEA045004C4CDA /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		B538DEA615AEAB01004C4CDA /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		B538DEA715AEAB01004C4CDA /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B538DE7A15AE97F7004C4CDA /* AppDelegate.h */,
 				B538DE7B15AE97F7004C4CDA /* AppDelegate.m */,
 				B538DE7D15AE97F7004C4CDA /* MainStoryboard_iPhone.storyboard */,
+				B538DEA615AEAB01004C4CDA /* TransitionViewController.h */,
+				B538DEA715AEAB01004C4CDA /* TransitionViewController.m */,
 				B538DEA315AEA045004C4CDA /* TeamViewController.h */,
 				B538DEA415AEA045004C4CDA /* TeamViewController.m */,
 				B538DE8015AE97F7004C4CDA /* MainStoryboard_iPad.storyboard */,
@@ -270,6 +275,7 @@
 				B538DE7C15AE97F7004C4CDA /* AppDelegate.m in Sources */,
 				B538DE8515AE97F8004C4CDA /* ViewController.m in Sources */,
 				B538DEA515AEA045004C4CDA /* TeamViewController.m in Sources */,
+				B538DEA815AEAB01004C4CDA /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
