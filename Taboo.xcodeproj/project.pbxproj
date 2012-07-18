@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B515DB1D15B397D60051AFE5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B515DB1C15B397D60051AFE5 /* GameViewController.m */; };
 		B538DE6C15AE97F7004C4CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B538DE6B15AE97F7004C4CDA /* UIKit.framework */; };
 		B538DE6E15AE97F7004C4CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B538DE6D15AE97F7004C4CDA /* Foundation.framework */; };
 		B538DE7015AE97F7004C4CDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B538DE6F15AE97F7004C4CDA /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B515DB1B15B397D60051AFE5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B515DB1C15B397D60051AFE5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B538DE6715AE97F7004C4CDA /* Taboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B538DE6B15AE97F7004C4CDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B538DE6D15AE97F7004C4CDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				B538DE7A15AE97F7004C4CDA /* AppDelegate.h */,
 				B538DE7B15AE97F7004C4CDA /* AppDelegate.m */,
 				B538DE7D15AE97F7004C4CDA /* MainStoryboard_iPhone.storyboard */,
+				B515DB1B15B397D60051AFE5 /* GameViewController.h */,
+				B515DB1C15B397D60051AFE5 /* GameViewController.m */,
 				B538DEA615AEAB01004C4CDA /* TransitionViewController.h */,
 				B538DEA715AEAB01004C4CDA /* TransitionViewController.m */,
 				B538DEA315AEA045004C4CDA /* TeamViewController.h */,
@@ -276,6 +281,7 @@
 				B538DE8515AE97F8004C4CDA /* ViewController.m in Sources */,
 				B538DEA515AEA045004C4CDA /* TeamViewController.m in Sources */,
 				B538DEA815AEAB01004C4CDA /* TransitionViewController.m in Sources */,
+				B515DB1D15B397D60051AFE5 /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +461,7 @@
 				B538DE9F15AE97F9004C4CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B538DEA015AE97F9004C4CDA /* Build configuration list for PBXNativeTarget "TabooTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				B538DEA215AE97F9004C4CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
